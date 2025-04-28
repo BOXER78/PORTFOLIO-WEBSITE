@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Kartik Puri</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <div class="cursor-dot" id="cursor-dot"></div>
+  <div class="cursor-outline" id="cursor-outline"></div>
+
+  <header class="header" id="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="#" class="logo">KP</a>
+        <div class="nav-links">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="mobile-menu-links">
+      <a href="#about" class="mobile-nav-link">About</a>
+      <a href="#projects" class="mobile-nav-link">Projects</a>
+      <a href="#contact" class="mobile-nav-link">Contact</a>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="fade-in">Kartik Puri</h1>
+          <h2 class="fade-in">Computer Science Student</h2>
+          <p class="hero-description fade-in">A passionate technologist specializing in cybersecurity and web development</p>
+          <div class="hero-cta fade-in">
+            <a href="#contact" class="btn btn-primary">Get in touch</a>
+            <a href="#projects" class="btn btn-secondary">View Projects</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-background">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-heading">About Me</h2>
+        <div class="about-content">
+          <div class="about-image">
+            <div class="image-container">
+              <img src="https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg" alt="Cybersecurity Illustration">
+            </div>
+          </div>
+          <div class="about-text">
+            <p>I'm a Computer Science student at Newton School Of Technology (2024-2028), passionate about cybersecurity, web development, and solving complex technical challenges. I'm a quick learner who enjoys working with new ideas and technologies.</p>
+            
+            <p>My expertise spans across various domains of technology, with a strong focus on cybersecurity, including Network Security, Web Application Security, and Vulnerability Assessment and Penetration Testing (VAPT). I'm constantly learning and adapting to new security challenges in the ever-evolving tech landscape.</p>
+            
+            <p>Beyond technical skills, I'm deeply involved in campus life through various leadership roles and have achieved recognition in sports, demonstrating my commitment to holistic growth and development.</p>
+
+            <div class="tech-stack">
+              <h3>Technical Expertise</h3>
+              <div class="tech-items">
+                <span class="tech-item">Cybersecurity</span>
+                <span class="tech-item">Network Security</span>
+                <span class="tech-item">Web Application Security</span>
+                <span class="tech-item">VAPT</span>
+                <span class="tech-item">React</span>
+                <span class="tech-item">JavaScript</span>
+                <span class="tech-item">Python</span>
+                <span class="tech-item">HTML/CSS</span>
+                <span class="tech-item">Windows</span>
+                <span class="tech-item">Linux</span>
+                <span class="tech-item">Networking</span>
+                <span class="tech-item">Pandas</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section-heading">My Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/1876279/pexels-photo-1876279.jpeg" alt="GUI Calculator project">
+            </div>
+            <div class="project-content">
+              <h3>GUI Calculator</h3>
+              <p>A user-friendly graphical calculator with a clean interface, supporting basic arithmetic operations and providing an accessible experience for all users.</p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://boxer78.github.io/calculator/" class="btn btn-small">Live Demo</a>
+                <a href="https://github.com/BOXER78/calculator" class="btn btn-small btn-secondary">Source Code</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/1741205/pexels-photo-1741205.jpeg" alt="VenomBites project">
+            </div>
+            <div class="project-content">
+              <h3>VenomBites</h3>
+              <p>An engaging Snake game implementation using JavaScript. Players can control the snake, eat food to grow, and try to achieve the highest score possible.</p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://boxer78.github.io/-VenomBites/" class="btn btn-small">Live Demo</a>
+                <a href="https://github.com/BOXER78/-VenomBites" class="btn btn-small btn-secondary">Source Code</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/1293120/pexels-photo-1293120.jpeg" alt="SNW Project">
+            </div>
+            <div class="project-content">
+              <h3>SNW Project</h3>
+              <p>A vintage collections showcase featuring cars, ornaments, and clothes. I developed the ornaments section, creating responsive layouts and engaging content presentation.</p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://kshitij2212.github.io/snw-project/" class="btn btn-small">Live Demo</a>
+                <a href="https://github.com/kshitij2212/snw-project" class="btn btn-small btn-secondary">Source Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-heading">Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <p>I'm always open to new opportunities, collaborations, and interesting conversations. Feel free to reach out through any of the following channels:</p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="contact-text">
+                  <h4>Email</h4>
+                  <p><a href="mailto:kartik.puri@adypu.edu.in">kartik.puri@adypu.edu.in</a></p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div class="contact-text">
+                  <h4>Location</h4>
+                  <p>Pune, Maharashtra, India</p>
+                </div>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/kartik-puri-9b92b133a/" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              </a>
+              <a href="https://github.com/BOXER78" class="social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="#">KP</a>
+        </div>
+        <p class="copyright"></p>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="scroll-to-top" id="scroll-to-top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </div>
+</body>
+</html>
